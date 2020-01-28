@@ -22,7 +22,7 @@ package com.allaboutscala.exercises.basics
   * License for the specific language governing permissions and limitations under
   * the License.
   */
-object StringAndBasics extends App {
+object StringAndBasics_01 extends App {
 
   // 1. Create a Scala program to reverse, and then format to upper case, the given String: "http://allaboutscala.com/scala-exercises
   // Output:
@@ -32,6 +32,4 @@ object StringAndBasics extends App {
   val strToFormat = "http://allaboutscala.com/scala-exercises"
   val reversedAndToUpperCase = strToFormat.reverse.toUpperCase()
   println(s"$strToFormat reversed and then to upper case = $reversedAndToUpperCase")
-
-
 }
